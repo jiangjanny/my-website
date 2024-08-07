@@ -10,7 +10,6 @@ import styles from './index.module.css'
 
 function HomepageHeader() {
     const { siteConfig } = useDocusaurusContext()
-    console.log('siteConfig', contact)
 
     return (
         <header className={clsx('heroBbg hero--primary', styles.heroBanner)}>
@@ -22,7 +21,7 @@ function HomepageHeader() {
                     {siteConfig.tagline} experience : {new Date().getFullYear() - Number(contact.frontEndExperience)} year
                 </p>
                 <div className={styles.buttons}>
-                    <Link className="button button--secondary button--lg" to="/docs/about">
+                    <Link className=" button--secondary button--lg" to="/about">
                         About Me
                     </Link>
                 </div>

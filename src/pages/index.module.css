@@ -5,16 +5,12 @@
 
 .heroBanner {
   padding: 10rem 0 6rem 0;
-  margin-bottom: 2rem;
   text-align: left;
   position: relative;
   overflow: hidden;
   background: linear-gradient(to bottom,  #ffffff 50%, var(--ifm-color-secondary) 50%,var(--ifm-color-secondary) 100%,#ffffff 100%); 
 }
-.heroBbg{
-  /* Permalink - use to edit and share this gradient. 固定鏈接 - 用於編輯和分享此漸變： https://colorzilla.com/gradient-editor/#ffffff+19,2989d8+19,207cca+81,ffffff+81 */
- /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-}
+
 
 @media screen and (max-width: 996px) {
   .heroBanner {

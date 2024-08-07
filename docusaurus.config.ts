@@ -61,15 +61,17 @@ const config: Config = {
                 src: 'img/logo.svg',
             },
             items: [
+                { to: '/about', label: 'About', position: 'left' },
+                { to: '/docs/into', label: 'Docs', position: 'left' },
                 { to: '/blog', label: 'Blog', position: 'left' },
-                { to: '/job', label: 'Job', position: 'left' },
+
                 {
                     href: 'https://github.com/jiangjanny',
                     label: 'GitHub',
                     position: 'right',
                 },
                 {
-                    href: 'https://www.linkedin.com/in/yi-jie-jiang-7b1b3b1b1/',
+                    href: 'https://www.linkedin.com/in/%E5%AE%9C%E6%BD%94-%E8%94%A3-382825172/',
                     label: 'Linkedin',
                     position: 'right',
                 },
@@ -82,18 +84,14 @@ const config: Config = {
                     title: 'Docs',
                     items: [
                         {
-                            label: 'About Me',
-                            to: '/docs/intro',
+                            href: '/docs/share',
+                            label: '文章分享',
                         },
                     ],
                 },
                 {
                     title: 'Blog',
                     items: [
-                        {
-                            href: '/blog/share',
-                            label: '文章分享',
-                        },
                         {
                             href: '/blog/Job',
                             label: '面試準備',
@@ -108,7 +106,7 @@ const config: Config = {
                             label: 'GitHub',
                         },
                         {
-                            href: 'https://www.linkedin.com/in/yi-jie-jiang-7b1b3b1b1/',
+                            href: 'https://www.linkedin.com/in/%E5%AE%9C%E6%BD%94-%E8%94%A3-382825172/',
                             label: 'Linkedin',
                         },
                     ],
