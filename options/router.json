@@ -1,0 +1,244 @@
+[
+    {
+        "id": "1",
+        "route": "/",
+        "label": "首頁",
+        "content": "",
+        "icon": "",
+        "type": "",
+        "items": [],
+        "last": true
+    },
+    {
+        "id": "2",
+        "route": "/blog",
+        "label": "部落格",
+        "content": "",
+        "icon": "pi pi-angle-down",
+        "type": "",
+        "items": [
+            {
+                "id": "2-2",
+                "route": "/npm",
+                "label": "npm 套件管理",
+                "content": "",
+                "icon": "pi pi-angle-down",
+                "type": "npm",
+                "items": [
+                    {
+                        "id": "2-2-1",
+                        "route": "/npm/npm-error",
+                        "label": "npm 安裝 卡住無法安裝",
+                        "content": "當遇到npm 安裝 卡住無法安裝時，可以嘗試以下方法解決",
+                        "icon": "",
+                        "type": "",
+                        "items": [],
+                        "last": true
+                    },
+                    {
+                        "id": "2-2-2",
+                        "route": "/npm/gitgnore",
+                        "label": "gitgnore 排除忽略檔案 失效",
+                        "content": "當遇到gitgnore 排除忽略檔案 失效，可以嘗試以下方法解決",
+                        "icon": "",
+                        "type": "",
+                        "items": [],
+                        "last": true
+                    }
+                ],
+                "last": false
+            },
+            {
+                "id": "3-1",
+                "route": "/knowledge",
+                "label": "網頁知識",
+                "icon": "",
+                "type": "knowledge",
+                "items": [
+                    {
+                        "id": "3-2-1",
+                        "route": "/knowledge/OTP",
+                        "label": "什麼是OTP",
+                        "content": "OTP 代表「一次性密碼」(One-Time Password)。它是一種安全認證機制,用於在用戶試圖登錄或進行交易時提供額外的驗證。",
+                        "icon": "",
+                        "type": "",
+                        "items": [],
+                        "last": true
+                    },
+                    {
+                        "id": "3-2-2",
+                        "route": "/knowledge/frontEndWorldView",
+                        "label": "前端世界觀",
+                        "content": "介紹前端的發展歷程",
+                        "icon": "",
+                        "type": "",
+                        "items": [],
+                        "last": true
+                    },
+                    {
+                        "id": "3-2-3",
+                        "route": "/knowledge/cdn",
+                        "label": "甚麼是CDN",
+                        "content": "CDN (Content Delivery Network,內容分發網絡)是一種通過將資源部署到多個節點來加速內容傳輸的技術",
+                        "icon": "",
+                        "type": "",
+                        "items": [],
+                        "last": true
+                    }
+                ],
+                "last": false
+            },
+            {
+                "id": "4-1",
+                "route": "/driven",
+                "label": "領域驅動設計",
+                "icon": "",
+                "type": "領域驅動設計",
+                "items": [
+                    {
+                        "id": "4-2-1",
+                        "route": "/driven/design",
+                        "label": "DDD 知識體系",
+                        "content": "DDD 強調從業務需求出發,通過建立通用語言和領域模型來指導系統設計和實現。這樣可以確保軟件系統能更好地反映和滿足業務需求。",
+                        "icon": "",
+                        "type": "",
+                        "items": [],
+                        "last": true
+                    }
+                ],
+                "last": false
+            },
+            {
+                "id": "5-1",
+                "route": "/interview",
+                "label": "面試問題",
+                "icon": "",
+                "type": "面試考題",
+                "items": [
+                    {
+                        "id": "5-1-1",
+                        "route": "/interview/optimizationTips",
+                        "label": "基本詢問觀念題",
+                        "content": "基本詢問觀念題對於 JS / CSS / 前端架構 ... 等",
+                        "icon": "",
+                        "type": "",
+                        "items": [],
+                        "last": true
+                    }
+                ],
+                "last": false
+            },
+            {
+                "id": "6-1",
+                "route": "/javascript",
+                "label": "JS 筆記",
+                "icon": "",
+                "type": "JS 筆記",
+                "items": [
+                    {
+                        "id": "6-1-1",
+                        "route": "/javascript/webWorker",
+                        "label": "Web Workers 調用 API，減輕主執行緒負擔",
+                        "content": "Web Workers 調用 API，減輕主執行緒負擔",
+                        "icon": "",
+                        "type": "",
+                        "items": [],
+                        "last": true
+                    }
+                ],
+                "last": false
+            },
+            {
+                "id": "7-1",
+                "route": "/other",
+                "label": "其他的筆記",
+                "icon": "",
+                "type": "其他的筆記",
+                "items": [
+                    {
+                        "id": "7-1-1",
+                        "route": "/other/googleGemini",
+                        "label": "如何使用 Google Gemini API 申請",
+                        "content": "如何使用 Google Gemini",
+                        "icon": "",
+                        "type": "",
+                        "items": [],
+                        "last": true
+                    },
+                    {
+                        "id": "7-1-2",
+                        "route": "/other/googleGeminiPythonBasicSettings",
+                        "label": "用 Python 示範使用 Google Gemini API-基礎設定",
+                        "content": "用 Python 示範使用 Google Gemini API 基礎環境設定",
+                        "icon": "",
+                        "type": "",
+                        "items": [],
+                        "last": true
+                    },
+                    {
+                        "id": "7-1-3",
+                        "route": "/other/googleGeminiLangChain",
+                        "label": "LangChain初探-Google Gemini API",
+                        "content": "用 Python 示範使用 Google Gemini API",
+                        "icon": "",
+                        "type": "",
+                        "items": [],
+                        "last": true
+                    },
+                    {
+                        "id": "7-1-4",
+                        "route": "/other/animalFunFactsDataset",
+                        "label": "動物趣味事實問答",
+                        "content": "用 Python 示範使用 動物趣味事實問答 用excel 轉換",
+                        "icon": "",
+                        "type": "",
+                        "items": [],
+                        "last": true
+                    },
+                    {
+                        "id": "7-1-5",
+                        "route": "/other/presidentSpeechQaLangchainGemini",
+                        "label": "文章內容問答",
+                        "content": "用 Python 示範使用 LangChain+ Open SourceEmbedding/LLM + Faiss",
+                        "icon": "",
+                        "type": "",
+                        "items": [],
+                        "last": true
+                    },
+                    {
+                        "id": "7-1-6",
+                        "route": "/other/ImageGoogleGemini",
+                        "label": "LLM圖片理解服務",
+                        "content": "用 Python 示範使用 LLM圖片理解服務",
+                        "icon": "",
+                        "type": "",
+                        "items": [],
+                        "last": true
+                    },
+                    {
+                        "id": "7-1-6",
+                        "route": "/other/ChatbotGoogleGemini",
+                        "label": "Chatbot Google Gemini API",
+                        "content": "用 Python 示範使用 Google Gemini API 並建立聊天頁面",
+                        "icon": "",
+                        "type": "",
+                        "items": [],
+                        "last": true
+                    }
+                ],
+                "last": false
+            }
+        ],
+        "last": false
+    },
+    {
+        "id": "3",
+        "route": "/contact",
+        "label": "聯絡我",
+        "content": "",
+        "icon": "",
+        "type": "",
+        "items": [],
+        "last": false
+    }
+]
