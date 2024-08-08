@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic'
 
 const config: Config = {
     title: "Janny's Blog",
-    tagline: 'Frontend Developer',
+    tagline: 'Frontend Engineer',
     favicon: 'img/favicon.ico',
     // Set the production url of your site here
     url: 'https://your-docusaurus-site.example.com',
@@ -36,13 +36,13 @@ const config: Config = {
                     sidebarPath: './sidebars.ts',
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
-                    editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+                    editUrl: 'https://github.com/jiangjanny/my-website/tree/master/',
                 },
                 blog: {
                     showReadingTime: true,
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
-                    editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+                    editUrl: 'https://github.com/jiangjanny/my-website/tree/master/',
                 },
                 theme: {
                     customCss: ['./src/css/custom.css', './src/css/main.css'],
@@ -63,7 +63,7 @@ const config: Config = {
             items: [
                 { to: '/about', label: 'About', position: 'left' },
                 { to: '/docs/into', label: 'Docs', position: 'left' },
-                { to: '/blog', label: 'Blog', position: 'left' },
+                { to: '/blog/gitgnore', label: 'Blog', position: 'left' },
 
                 {
                     href: 'https://github.com/jiangjanny',
