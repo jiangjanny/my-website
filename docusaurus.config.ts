@@ -17,7 +17,7 @@ const config: Config = {
     organizationName: 'facebook', // Usually your GitHub org/user name.
     projectName: 'docusaurus', // Usually your repo name.
 
-    onBrokenLinks: 'throw',
+    onBrokenLinks: 'ignore',
     onBrokenMarkdownLinks: 'warn',
     // staticDirectories: ['options'],
     // Even if you don't use internationalization, you can use this field to set
@@ -27,7 +27,6 @@ const config: Config = {
         defaultLocale: 'en',
         locales: ['en'],
     },
-
     presets: [
         [
             'classic',
@@ -62,7 +61,7 @@ const config: Config = {
             },
             items: [
                 { to: '/about', label: 'About', position: 'left' },
-                { to: '/docs/into', label: 'Docs', position: 'left' },
+                { to: '/docs/網路安全/檔案上傳安全', label: 'Docs', position: 'left' },
                 { to: '/blog/gitgnore', label: 'Blog', position: 'left' },
 
                 {
@@ -112,7 +111,7 @@ const config: Config = {
                     ],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+            copyright: `Copyright © ${new Date().getFullYear()} Janny jie.`,
         },
         prism: {
             theme: prismThemes.github,
