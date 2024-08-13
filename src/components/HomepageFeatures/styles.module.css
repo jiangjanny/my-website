@@ -29,12 +29,12 @@
   padding: 0 10px;
   font-size: 10rem;
   font-weight: bold;
-  color: #fff;
+  color: var(--w);
   text-shadow:
-        -1px -1px 0 var(--ifm-color-secondary),
-        1px -1px 0 var(--ifm-color-secondary),
-        -1px 1px 0 var(--ifm-color-secondary),
-        1px 1px 0 var(--ifm-color-secondary);
+        -1px -1px 0 var(--ifm-color-secondary01),
+        1px -1px 0 var(--ifm-color-secondary01),
+        -1px 1px 0 var(--ifm-color-secondary01),
+        1px 1px 0 var(--ifm-color-secondary01);
 }
 
 /* .experience{
