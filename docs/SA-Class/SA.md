@@ -91,3 +91,5 @@ SA 聊天室
 RD vs. Design-in ?
 
 > Design-in : 客戶最想要的方式模擬給客戶確認這樣不確定性可以相對將低
+
+socket io ??
