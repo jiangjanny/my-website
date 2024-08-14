@@ -49,9 +49,15 @@ const config: Config = {
             } satisfies Preset.Options,
         ],
     ],
-
+    markdown: {
+        mermaid: true,
+    },
+    themes: ['@docusaurus/theme-mermaid'],
     themeConfig: {
         // Replace with your project's social card
+        mermaid: {
+            theme: { light: 'neutral', dark: 'forest' },
+        },
         image: 'img/docusaurus-social-card.jpg',
         navbar: {
             title: 'Janny Site',
