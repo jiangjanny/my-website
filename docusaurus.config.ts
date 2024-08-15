@@ -66,10 +66,11 @@ const config: Config = {
                 src: 'img/logo.svg',
             },
             items: [
-                { to: '/about', label: 'About', position: 'left' },
-                { to: '/docs/網路安全/檔案上傳安全', label: 'Docs', position: 'left' },
-                { to: '/blog/gitgnore', label: 'Blog', position: 'left' },
-
+                { to: '/about', label: '關於我', position: 'left' },
+                { to: '/docs/你前端該知道的一些事/資訊安全/你知道網頁資安嗎', label: '文章', position: 'left' },
+                { to: '/docs/tags', label: 'Tag', position: 'left' },
+                { to: '/blog/gitgnore', label: '遇到一些奇怪的事', position: 'left' },
+                { to: '/enjoy', label: '享受人生', position: 'left' },
                 {
                     href: 'https://github.com/jiangjanny',
                     label: 'GitHub',
