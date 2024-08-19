@@ -1,34 +1,34 @@
 ---
-slug: 十大 Web應用程式安全風險
-title: 十大 Web應用程式安全風險
+slug: OWASP 10 TOP 安全風險
+title: OWASP 10 TOP 安全風險
 authors:
     name: Janny
-    title: 十大 Web應用程式安全風險
+    title: OWASP 10 TOP 安全風險
     url: https://github.com/jiangjanny
     image_url: https://avatars.githubusercontent.com/u/109901097?s=96&v=4
 tags: [InternetSecurity, OWASP]
 ---
 
 ## OWASP TOP 10
+> 針對現金 網路安全上最常發生的資案事件前 10 名
 
-針對現金 網路安全上最常發生的資案事件前 10 名
-![alt text](image.png)
-[圖片來源於](https://owasp.org/www-project-top-ten/)
+![alt text](image-9.png)
 
 ### 以下是您提供的 OWASP Top 10 中每個項目的詳細介紹：
 
-1.  **A01: 2021 破壞性驗證（Broken Access Control）**
+1.  **[A01: 2021 破壞性驗證（Broken Access Control）](/docs/你前端該知道的一些事/資訊安全/OWASP%2010%20TOP%20安全風險-破壞性驗證)**
 
     -   排名上升至第 1 位。
     -   94%的應用程式經過某種形式的存取控制測試。
     -   與其他類別相比，針對這 34 個常見弱點（CWE）在應用程式中的出現次數最多。
+    
 
-2.  **A02: 2021 加密故障（Cryptographic Failures）**
+2.  **[A02: 2021 加密故障（Cryptographic Failures）](/docs/你前端該知道的一些事/資訊安全/OWASP%2010%20TOP%20安全風險-加密故障)**
 
     -   排名上升至第 2 位。
     -   這一類別以前被稱為敏感資料洩露，強調與加密相關的故障，這些故障常導致敏感資料暴露或系統受損。
 
-3.  **A03: 2021 注射（Injection）**
+3.  **[A03: 2021 注射（Injection）](/docs/你前端該知道的一些事/資訊安全/OWASP%2010%20TOP%20安全風險-注射)**
 
     -   排名下滑至第 3 位。
     -   94%的應用程式經過某種形式的注入測試，33 個 CWE 在此類別中出現的次數排名第二。
