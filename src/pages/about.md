@@ -22,7 +22,7 @@ tags: [hola, docusaurus]
 ---
 
 ## 聯絡資訊
-* 電話 : 0912631673
+<!-- * 電話 : 0912631673 -->
 * 信箱 : yuaog1331@gmail.com
 * GitHub : [GitHub url](https://github.com/jiangjanny)
 * Linkedin : [linkedin url](https://www.linkedin.com/in/%E5%AE%9C%E6%BD%94-%E8%94%A3-382825172/)
