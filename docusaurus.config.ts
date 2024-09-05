@@ -52,6 +52,32 @@ const config: Config = {
     markdown: {
         mermaid: true,
     },
+    plugins: [
+        [
+            '@docusaurus/plugin-pwa',
+            {
+                debug: true,
+                offlineModeActivationStrategies: ['appInstalled', 'standalone', 'queryString', 'mobile', 'always'],
+                pwaHead: [
+                    {
+                        tagName: 'link',
+                        rel: 'icon',
+                        href: '/static/img/logo.svg',
+                    },
+                    {
+                        tagName: 'link',
+                        rel: 'manifest',
+                        href: '/manifest.json', // your PWA manifest
+                    },
+                    {
+                        tagName: 'meta',
+                        name: 'theme-color',
+                        content: '#CB997E',
+                    },
+                ],
+            },
+        ],
+    ],
     themes: ['@docusaurus/theme-mermaid'],
     themeConfig: {
         // Replace with your project's social card
