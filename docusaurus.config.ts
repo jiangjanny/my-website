@@ -62,7 +62,7 @@ const config: Config = {
                     {
                         tagName: 'link',
                         rel: 'icon',
-                        href: '/img/docusaurus.png',
+                        href: '/static/img/logo.svg',
                     },
                     {
                         tagName: 'link',
@@ -72,7 +72,7 @@ const config: Config = {
                     {
                         tagName: 'meta',
                         name: 'theme-color',
-                        content: '#b00303',
+                        content: '#CB997E',
                     },
                 ],
             },
